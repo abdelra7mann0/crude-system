@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="css/all.min.css"/>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet"href="css/index.css"/>
+</head>
+<body>
+
+
+
+    <section class="mt-5">
+        <form peve> 
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                <div id="nameHelp" class="form-text">We'll never share your name with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="age" class="form-label">Your number</label>
+                <input type="number" class="form-control" id="age">
+                <div id="ageHelp" class="form-text">We'll never share your Number with anyone else.</div>
+              </div>
+            <div class="mb-3">
+              <label for="Email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+    
+            <button type="submit"id="sub" class="btn btn-primary">Submit</button>
+          </form>
+    </section>
+    <section class="mt-5">
+        
+    <table class="table table-bordered border-primary text-center ">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Email</th>
+            <th scope="col">Delete</th>
+            <th scope="col">Update</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyy">
+
+        </tbody>
+      </table>
+    
+    </section>
+    
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
